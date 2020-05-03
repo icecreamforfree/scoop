@@ -5,9 +5,6 @@ import createPersistedState from "vuex-persistedstate";
 import initialState from "./initialState";
 import setter from "./utils/setter";
 import classesModule from "./module/classes";
-import searchModule from "./module/search";
-import pointsModule from "./module/points";
-import newsModule from "./module/news";
 import subscriptionPlanModule from "./module/subscriptionPlan";
 
 // @todo Remove these mock data
@@ -19,9 +16,6 @@ export default new Vuex.Store({
   state: initialState(),
   modules: {
     classes: classesModule,
-    search: searchModule,
-    points: pointsModule, // User points and not all points related
-    news: newsModule,
     subscription: subscriptionPlanModule
   },
   mutations: {

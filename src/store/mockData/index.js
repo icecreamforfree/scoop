@@ -19,8 +19,6 @@ const paymentDetails = {
 module.exports = {
   user,
   paymentDetails,
-  ...require("./points"),
   ...require("./classes"),
-  ...require("./subscriptionPlan"),
-  ...require("./news")
+  ...require("./subscriptionPlan")
 };
