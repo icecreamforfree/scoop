@@ -1,5 +1,5 @@
-# Class Express Partners website
-Website for Class Express Partners. Used for managing your classes.
+# Insider SCOOP
+Admin portal to access the inside SCOOP and update their questions list.
 
 ## Project setup
 ```
@@ -31,4 +31,4 @@ This project is developed and made available under the "AGPL License"
 If you have any questions, contact us via [email](mailto:developer@enkeldigital.com)  
 Authors:
 - [JJ](https://github.com/Jaimeloeuf)
-- [Joshua](https://github.com/leeszeray)
+- [Yuliati](https://github.com/Icebearbear/)
